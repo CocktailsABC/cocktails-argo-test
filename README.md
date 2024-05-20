@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.19.10
+        image: nginx:1.25.5
         ports:
         - containerPort: 80
 ```
