@@ -43,6 +43,13 @@ spec:
         image: nginx:1.25.5
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
 ```
 
 ### Service
